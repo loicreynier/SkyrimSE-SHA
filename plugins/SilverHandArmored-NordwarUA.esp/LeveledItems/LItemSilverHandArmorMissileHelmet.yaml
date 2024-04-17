@@ -1,0 +1,7 @@
+FormKey: 000817:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileHelmet
+Entries:
+- Data:
+    Level: 1
+    Reference: 00083D:Silver Hand Armor.esp
+    Count: 1

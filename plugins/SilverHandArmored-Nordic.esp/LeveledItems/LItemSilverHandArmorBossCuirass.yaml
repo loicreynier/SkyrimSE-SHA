@@ -1,0 +1,7 @@
+FormKey: 000809:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossCuirass
+Entries:
+- Data:
+    Level: 1
+    Reference: 01CD97:Dragonborn.esm
+    Count: 1

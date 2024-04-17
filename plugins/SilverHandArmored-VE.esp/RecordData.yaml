@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-VE.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 17
+    NextFormID: 2052
+  Author: Lorkhan
+  Description: Silver Hand Armored customization patch - Creation Club Vigil Enforcer Armor Set
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: Update.esm
+    FileSize: 0
+  - Master: ccmtysse002-ve.esl
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  INTV: 1

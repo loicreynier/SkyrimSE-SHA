@@ -1,0 +1,7 @@
+FormKey: 000815:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMeleeBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 000800:ccbgssse056-ba_silver.esl
+    Count: 1

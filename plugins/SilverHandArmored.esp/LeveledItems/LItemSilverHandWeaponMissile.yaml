@@ -1,0 +1,7 @@
+FormKey: 000829:SilverHandArmored.esp
+EditorID: LItemSilverHandWeaponMissile
+Entries:
+- Data:
+    Level: 1
+    Reference: 037BFD:Skyrim.esm
+    Count: 1

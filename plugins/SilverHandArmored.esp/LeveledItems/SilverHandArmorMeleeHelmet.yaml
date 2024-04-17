@@ -1,0 +1,9 @@
+FormKey: 00080E:SilverHandArmored.esp
+EditorID: SilverHandArmorMeleeHelmet
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 00080F:SilverHandArmored.esp
+    Count: 1

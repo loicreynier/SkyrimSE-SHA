@@ -1,0 +1,7 @@
+FormKey: 000825:SilverHandArmored.esp
+EditorID: LItemSilverHandWeaponMelee
+Entries:
+- Data:
+    Level: 1
+    Reference: 10AA19:Skyrim.esm
+    Count: 1

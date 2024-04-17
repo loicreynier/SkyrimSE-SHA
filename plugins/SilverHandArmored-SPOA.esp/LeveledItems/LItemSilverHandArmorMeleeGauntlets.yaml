@@ -1,0 +1,7 @@
+FormKey: 000813:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMeleeGauntlets
+Entries:
+- Data:
+    Level: 1
+    Reference: 000D69:SPOAsilverknight.esp
+    Count: 1

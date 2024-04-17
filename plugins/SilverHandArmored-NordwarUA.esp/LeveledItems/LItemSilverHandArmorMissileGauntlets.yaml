@@ -1,0 +1,7 @@
+FormKey: 00081B:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileGauntlets
+Entries:
+- Data:
+    Level: 1
+    Reference: 000830:Silver Hand Armor.esp
+    Count: 1

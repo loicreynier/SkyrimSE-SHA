@@ -1,0 +1,7 @@
+FormKey: 00080D:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 000800:SilverHandArmored-VE.esp
+    Count: 1

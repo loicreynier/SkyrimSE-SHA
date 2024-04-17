@@ -1,0 +1,8 @@
+FormKey: 000823:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorRing
+ChanceNone: 80
+Entries:
+- Data:
+    Level: 1
+    Reference: 03B97C:Skyrim.esm
+    Count: 1

@@ -1,0 +1,20 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-MOD.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 3
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: Compatibility patch for Silver Hand Armored and Master Of Disguise
+  MasterReferences:
+  - Master: Master of Disguise - Special Edition.esp
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  INTV: 1

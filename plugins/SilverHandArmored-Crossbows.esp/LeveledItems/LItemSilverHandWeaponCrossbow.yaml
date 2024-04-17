@@ -1,0 +1,12 @@
+FormKey: 000800:SilverHandArmored-Crossbows.esp
+VersionControl: 10815
+EditorID: LItemSilverHandWeaponCrossbow
+Entries:
+- Data:
+    Level: 1
+    Reference: 000801:Dawnguard.esm
+    Count: 1
+- Data:
+    Level: 15
+    Reference: 00F19E:Dawnguard.esm
+    Count: 1

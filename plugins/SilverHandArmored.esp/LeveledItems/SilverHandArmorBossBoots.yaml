@@ -1,0 +1,9 @@
+FormKey: 00080C:SilverHandArmored.esp
+EditorID: SilverHandArmorBossBoots
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 00080D:SilverHandArmored.esp
+    Count: 1

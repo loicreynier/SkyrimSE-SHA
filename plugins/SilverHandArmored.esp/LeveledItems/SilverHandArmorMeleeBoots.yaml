@@ -1,0 +1,9 @@
+FormKey: 000814:SilverHandArmored.esp
+EditorID: SilverHandArmorMeleeBoots
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000815:SilverHandArmored.esp
+    Count: 1

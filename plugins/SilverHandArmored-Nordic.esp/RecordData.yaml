@@ -1,0 +1,21 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-Nordic.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 5
+    NextFormID: 2048
+  Author: Lorkhan
+  Description: Silver Hand Armored customization plugin - Nordic Carved Armor Bosses
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  - Master: Dragonborn.esm
+    FileSize: 0

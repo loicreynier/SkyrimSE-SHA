@@ -1,0 +1,9 @@
+FormKey: 000806:SilverHandArmored.esp
+EditorID: SilverHandArmorBossHelmet
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 023068:Hothtrooper44_ArmorCompilation.esp
+    Count: 1

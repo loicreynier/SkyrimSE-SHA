@@ -1,0 +1,103 @@
+[center][b][size=6]Silver Hand Armored[/size][/b][/center]
+
+[b][center][url=https://www.nexusmods.com/skyrim/mods/108152]LE VERSION[/url][/center]
+
+Silver Hand Armored[/b] is a simple outfit modification mod for the Silver Hand. All the faction members now wear Steel Plate Armor. The goal is to transform the Silver Hand in a true warrior faction and set it apart from bands of bandit.
+
+[b][size=5]Mantle of the Silver Hand and Immersive Armors[/size][/b]
+
+[quote]Be careful. Their leader is a tricky one. They call him 'the Skinner'. I don't think I need to tell you why.[/quote]
+Patches for [url=https://www.nexusmods.com/skyrim/mods/34615]Mantle of the Silver Hand[/url] and [url=https://www.nexusmods.com/skyrimspecialedition/mods/3479]Immersive Armors[/url] by Hothtrooper44 are provided. Both makes Krev the Skinner (and other Silver Hand "bosses") wears the Mantle of the Silver Hand. Additionally, the Immersive Armors patch makes sure IA does no overwrite the outfit changes. Both patch requires the original mod. Please note that you need to properly port [url=https://www.nexusmods.com/skyrim/mods/34615]Mantle of the Silver Hand[/url] (converting plugin to form 44 and optimizing the NIF files) in order to make it work on Special Edition. You could also simply port the ESP to form 44 and copy the meshes and textures from [url=https://www.nexusmods.com/skyrimspecialedition/mods/3479]Immersive Armors[/url];  doing so you will have proper meshes and the ground model introduced by IA (the ground model of the Oldrim version is just a werewolf head).
+
+[b][size=5]Have you tried to shoot a werewolf with a crossbow?[/size][/b]
+
+Some people prefer to hunt werewolf with crossbows, an additional plugin is provided for them.
+
+[b][size=5]Customization[/size][/b]
+
+Silver Hand Armorer is made to be modular and configurable, the installer provides different patches and optional plugins to customize how the Silver Hand members look:
+
+[b][color=#6aa84f]Customization patches:[/color][/b]
+[list]
+[*][url=https://www.nexusmods.com/skyrim/mods/34615]Mantle of the Silver Hand[/url]: the Silver Hand bosses will wear the mantle.
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/34100]Armor Variants Expansion[/url]: if you are high level enough, the bosses will wear the enhanced version of the steel plate armor
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/13236]SPOA Silver Knight Armor[/url]: all the Silver Hand members will wear the Silver Knight Armor
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/13353]SPOA Silver Knight Shield[/url]: the Silver Hand one-handed melee warriors will wield the Silver Knight Shield
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/50664]NordwarUA's Silver Hand Armor standalone[/url]: the mod provides three different armors (light, medium and heavy). The archers will wear the light version, the melee warriors the medium version and the bosses the heavy version.
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/11091]Crimson Ranger Armor SE[/url]: the Silver Hand archers will wear one of the two variants of the armor. They will no wear the hood because it is not compatible with Khajiit and Argonians.
+[/list]
+[b][color=#6aa84f]Customization optional plugins:[/color][/b]
+[list]
+[*]Archers in Leather Armor
+[*]Bosses in Nordic Carved Armor
+[*]Archers use Crossbows
+[/list]
+[b][size=5]Installation[/size][/b]
+
+Use the FOMod installer and choose the options corresponding to your mod list.
+
+[b]Updating from  1.1.x to a later version[/b]: read spoiler.
+[spoiler][b][color=#ff0000]From version 1.2, all the plugins are flagged as ESL and the compatibility patches are no longer separated versions[/color][/b]. Before 1.20, if you used Mantle of the Silver Hand and Master Of Disguise (as an example) you only needed to take the [i]MOD+Mantle[/i] ESP. From 1.20, all the patches are optional plugins. Therefore you need the main [i]SilverHandArmored.esp[/i] and the [i]SilverHandArmored-Mantle.esp[/i] and [i]SilverHandArmored-MOD.esp[/i] patches. Do not worry, they are all flagged as ESLs. This change was necessary in order to make maintenance, compatibility with other mods  and the introduction of new patches simpler.
+
+[b][color=#ff0000]Updating from 1.1.x to 1.2.x may cause issues[/color][/b]  because the plugins are now flagged as ESLs. In the worst case
+scenario you will find already spawn NPCs naked. You can fix that by
+opening the console, selecting them and use the [font=Courier New]resurrect[/font] command. I only experienced this issue with the Immersive Armors patch. Other than that, you should be fine.[/spoiler]
+
+[b][size=5]Load Order[/size][/b]
+
+[url=https://loot.github.io/]LOOT[/url] should be used for optimal placement and follow this scheme:
+
+[list=1]
+[*]Patched mod #1
+[*]Patched mod #2
+[*]Silver Hand Armored
+[*]Patch for mod #1
+[*]Patch for mod #2
+[/list]
+When you combine multiple patches, the load order between the patches is important. Example: you want the Silver Hand bosses to wear the armor from [url=https://www.nexusmods.com/skyrimspecialedition/mods/34100]Armor Variants Expansion[/url] but you also want them to wear the [url=https://www.nexusmods.com/skyrim/mods/34615]Mantle of the Silver Hand[/url]. In order to do that you need to place [i]SilverHandArmored+Mantle.esp[/i] below [i]SilverHandArmored-AVExpansion.esp[/i] because the latter changes the boss' helmet and will override the previous one. Here is an example of load order:
+
+[list=1]
+[*]Master of Disguise - Special Edition.esp
+[*]AVExpansion.esp
+[*]Krev The Skinner's Mantle by Hothtrooper44.esp
+[*]SilverHandArmored.esp
+[*]SilverHandArmored-Crossbows.esp
+[*]SilverHandArmored-MOD.esp
+[*]SilverHandArmored-AVExpansion.esp
+[*]SilverHandArmored-Mantle.esp
+[/list]
+[b][size=5]Compatibility[/size][/b]
+
+Silver Hand Armored modifies the NPCs by assigning them a new outfit rather than modifying the base outfit (which is the default outfit for bandits). All the mods that change the bandits outfits without touching the Silver Hand actors are compatible. Except Immersive Armors, I have not used a mod changing the Silver Hand actors. Most mods should be compatible.
+[b][color=#6aa84f]
+Compatible mods:[/color][/b]
+[list]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/43881]Reasonable Silver Hand[/url]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/3479]Immersive Armors[/url]: patch included.
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/18994]Weapons Armor Clothing and Clutter Fixes[/url]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/31245]Growl[/url]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/30017]Heritage[/url]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/3058]MorrowLoot Ultimate[/url]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/9959]Master of Disguise[/url]: patch included. One needs to wear the Ring of the Silver Hand to be disguised as a Silver Hand.
+[/list]
+[b][size=5]Recommendations[/size][/b]
+
+[list]
+[*]With [url=https://www.nexusmods.com/skyrimspecialedition/mods/43881]Reasonable Silver Hand[/url] the members of the Silver Hand no longer attack you on sight like common bandits if you are not part of the Companions.
+[/list]
+[b][size=5]Alternative[/size][/b]
+
+A great alternative to this mod is [url=https://www.nexusmods.com/skyrimspecialedition/mods/30051]Unplayable Faction Armors[/url] by NordWarUA which adds new armors to the Silver Hand and other unplayable factions. The [url=https://www.nexusmods.com/skyrimspecialedition/mods/50664]standalone NordwarUA's Silver Hand Armor[/url] patch provided by Silver Hand Armored allows you to only use the Silver Hand armor from Unplayable Faction Armors.
+
+[b][size=5]Credits[/size][/b]
+
+Credits to [url=https://www.nexusmods.com/skyrimspecialedition/users/34763925]Koveich[/url] for the Sovngarde font used in the image title.
+Credits to ElminsterAU and the xEdit team for [url=https://www.nexusmods.com/skyrimspecialedition/mods/164]SSEEdit[/url] used to create this mod.
+Thanks to ViktoriaLanders and fireundubh for their help to create a patch for [url=https://www.nexusmods.com/skyrimspecialedition/mods/9959]Master of Disguise[/url].
+
+[b][size=5]My Skyrim mods[/size][/b]
+
+[list]
+[*]Silver Hand Armored : [url=https://www.nexusmods.com/skyrimspecialedition/mods/43033]SE[/url]
+[*]Creation Club Display Case Fix: [url=https://www.nexusmods.com/skyrimspecialedition/mods/43485]SE[/url]
+[/list]

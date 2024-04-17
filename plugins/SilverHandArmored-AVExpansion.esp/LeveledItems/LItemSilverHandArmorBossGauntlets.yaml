@@ -1,0 +1,11 @@
+FormKey: 00080B:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossGauntlets
+Entries:
+- Data:
+    Level: 1
+    Reference: 01395D:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00799C:AVExpansion.esp
+    Count: 1

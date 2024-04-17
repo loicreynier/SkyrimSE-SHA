@@ -1,0 +1,31 @@
+FormKey: 000801:SilverHandArmored-VE.esp
+VersionControl: 10817
+EditorID: ArmorSilverHandCuirass
+Name:
+  TargetLanguage: English
+  Value: Silver Hand Armor
+WorldModel:
+  Male:
+    Model:
+      File: CreationClub\MTYSSE002\Armor\VigilEnforcer\SilverHand\gnd\CuirassSash_gnd.nif
+      Data: 0x020000000000000000000000
+BodyTemplate:
+  FirstPersonFlags:
+  - Body
+  ArmorType: HeavyArmor
+  ActsLike44: True
+Race: 000019:Skyrim.esm
+Keywords:
+- 06BBD2:Skyrim.esm
+- 08F959:Skyrim.esm
+- 06C0EC:Skyrim.esm
+- 06BBE6:Skyrim.esm
+- 002ED9:Update.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Armature:
+- 000D77:ccmtysse002-ve.esl
+Value: 625
+Weight: 38
+ArmorRating: 40

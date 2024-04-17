@@ -1,0 +1,9 @@
+FormKey: 000828:SilverHandArmored.esp
+EditorID: SilverHandWeaponMissile
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000829:SilverHandArmored.esp
+    Count: 1

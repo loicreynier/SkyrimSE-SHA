@@ -1,0 +1,370 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>Silver Hand Armored</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="Select Options">
+      <optionalFileGroups order="Explicit">
+        <group name="Core Mod" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Silver Hand Armored">
+              <description>This is the main plugin for the mod.</description>
+              <image path="fomod\logo.png" />
+              <files>
+                <file source="SilverHandArmored.esp" destination="SilverHandArmored.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Unofficial Skyrim Special Edition Patch.esp"
+                          state="Active" />
+                      </dependencies>
+                      <type name="Required" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="README" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Update 1.2">
+              <description>
+                From version 1.2.0 all plugins are flagged as ESL and compatibility patches are now optional ESL plugins (and not separated version as they have been before). You can use multiple plugins. Make sure to adjust your load order. As an example, if you want the armor provided by Armor Variants Expansion by darkgondul and the helmet from the Mantle of The Silver Hand by Hothtrooper44, make sure to place SilverHandArmored-Mantle.esp below SilverHandArmored-AVExpansion.esp.
+
+                Upgrading from version 1.1.x to 1.2 on an existing save can lead to problems on already generated NPCs. In the worst case you may encounter naked NPCs. If this happens, just open your console, click on the NPC and enter the command `resurrect`.
+              </description>
+              <image path="fomod\logo.png" />
+              <conditionFlags>
+                <flag name="Readme">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Compatibility patches" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Master Of Disguise">
+              <description>
+                Select this option if you are using Master Of Disguise by fireundubh.
+              </description>
+              <files>
+                <file source="SilverHandArmored-MOD.esp" destination="SilverHandArmored-MOD.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Master of Disguise - Special Edition.esp"
+                          state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Immersive Armors">
+              <description>
+                Select this option if you are using Immersive Armors by Hothtrooper44. This patch is necessary even if Immersive Armors is placed above Silver Hand Armored in your load order. Immersive Armors adds the Mantle of the Silver Hand to the level list of each Silver Hand member, Silver Hand Armored with this patch only adds the Mantle to the bosses outfit.
+              </description>
+              <files>
+                <file source="SilverHandArmored-IA.esp" destination="SilverHandArmored-IA.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Hothtrooper44_ArmorCompilation.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Customization patches" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Mantle of the Silverhand">
+              <description>
+                Select this option if you are using the standalone armor Mantle of the Silverhand by Hothtrooper44 and you want the Silver Hand bosses to wear the mantle.
+              </description>
+              <files>
+                <file source="SilverHandArmored-Mantle.esp"
+                  destination="SilverHandArmored-Mantle.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Krev The Skinner's Mantle by Hothtrooper44.esp"
+                          state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Armor Variants Expansion">
+              <description>
+                Select this option if you are using Armor Variants Expansion by darkgondul and you want the Silver Hand bosses to wear the Enhanced Steel Plate Armor. With this patch, regular members of the Silver Hand will still wear classic Steel Plate Armor while the bosses will wear the Enhanced version if your are high level enough.
+              </description>
+              <files>
+                <file source="SilverHandArmored-AVExpansion.esp"
+                  destination="SilverHandArmored-AVExpansion.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="AVExpansion.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Vigil Enforcer Armor Set">
+              <description>
+                Select this option if you are using Vigil Enforcer Armor Set (Creation Club) and you want the Silver Hands to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-VE.esp" destination="SilverHandArmored-VE.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="ccmtysse002-ve.esl" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Alternate Armor - Silver">
+              <description>
+                Select this option if you are using Alternate Armor - Silver (Creation Club) and you want the Silver Hands to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-CCAASilver.esp"
+                  destination="SilverHandArmored-CCAASilver.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="ccbgssse056-ba_silver.esl" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Alternate Armor - Silver - Boss Only">
+              <description>
+                Select this option if you are using Alternate Armor - Silver (Creation Club) and you want the Silver Hand bosses to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-CCAASilverBoss.esp"
+                  destination="SilverHandArmored-CCAASilverBoss.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="ccbgssse056-ba_silver.esl" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="SPOA Silver Knight Armor SE">
+              <description>
+                Select this option if you are using SPOA Silver Knight Armor SE by dopalacz and you want the Silver Hands to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-SPOA.esp" destination="SilverHandArmored-SPOA.esp"
+                  priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="SPOAsilverknight.esp" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="SPOA Silver Knight Armor SE - Boss Only">
+              <description>
+                Select this option if you are using SPOA Silver Knight Armor SE by dopalacz and you want the Silver Hand bosses to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-SPOA.esp"
+                  destination="SilverHandArmored-SPOABoss.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="SPOAsilverknight.esp" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="SPOA Silver Knight Shield SE">
+              <description>
+                Select this option if you are using SPOA Silver Knight Shield SE by dopalacz and you want the Silver Hands to wield that shield.
+              </description>
+              <files>
+                <file source="SilverHandArmored-SPOAShield.esp"
+                  destination="SilverHandArmored-SPOAShield.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="SPOA_shield.esp" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="NordwarUA Silver Hand Armor standalone (Halfdan)">
+              <description>
+                Select this option if you are using Halfdan's standalone NordwarUA's Silver Hand Armor and you want the Silver Hands to wear that armor.
+
+                Mod link: https://www.nexusmods.com/skyrimspecialedition/mods/50664
+              </description>
+              <files>
+                <file source="SilverHandArmored-NordwarUA.esp"
+                  destination="SilverHandArmored-NordwarUA.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Silver Hand Armor.esp" state="Active" />
+                      </dependencies>
+                      <type name="Recommended" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Crimson Ranger Armor">
+              <description>
+                Select this option if you are using Crimson Ranger Armor by patobek and you want the Silver Hand archers to wear that armor.
+              </description>
+              <files>
+                <file source="SilverHandArmored-Crimson.esp"
+                  destination="SilverHandArmored-Crimson.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <dependencyType>
+                  <defaultType name="NotUsable" />
+                  <patterns>
+                    <pattern>
+                      <dependencies operator="And">
+                        <fileDependency file="Crimson Ranger Armor.esp" state="Active" />
+                      </dependencies>
+                      <type name="Optional" />
+                    </pattern>
+                  </patterns>
+                </dependencyType>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Optional customization plugins" type="SelectAny">
+          <plugins order="Explicit">
+            <plugin name="Crossbows">
+              <description>
+                Select this option if you want to replace all the Silver Hand archers' bows by crossbows.
+              </description>
+              <files>
+                <file source="SilverHandArmored-Crossbows.esp"
+                  destination="SilverHandArmored-Crossbows.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Recommended" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Leather Armors">
+              <description>
+                Select this option if you want to replace all the Silver Hand archers' armors by Leather Armors.
+              </description>
+              <files>
+                <file source="SilverHandArmored-Leather.esp"
+                  destination="SilverHandArmored-Leather.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Nordic Carved Armors">
+              <description>
+                Select this option if you want to replace all the Silver Hand bosses' armors by Nordic Carved Armors.
+              </description>
+              <files>
+                <file source="SilverHandArmored-Nordic.esp"
+                  destination="SilverHandArmored-Nordic.esp" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional" />
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>

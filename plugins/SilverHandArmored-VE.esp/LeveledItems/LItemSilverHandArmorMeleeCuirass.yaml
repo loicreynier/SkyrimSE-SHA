@@ -1,0 +1,7 @@
+FormKey: 000811:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMeleeCuirass
+Entries:
+- Data:
+    Level: 1
+    Reference: 000801:SilverHandArmored-VE.esp
+    Count: 1

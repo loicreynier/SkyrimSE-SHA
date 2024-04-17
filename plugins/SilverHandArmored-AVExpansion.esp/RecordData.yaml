@@ -1,0 +1,22 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-AVExpansion.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 4
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: Silver Hand Armored customization patch - Armor Variants Expansion
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  - Master: AVExpansion.esp
+    FileSize: 0
+  INTV: 1

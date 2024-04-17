@@ -1,0 +1,7 @@
+FormKey: 00081D:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 000800:ccbgssse056-ba_silver.esl
+    Count: 1

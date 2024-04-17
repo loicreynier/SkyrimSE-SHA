@@ -1,0 +1,11 @@
+FormKey: 000807:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossHelmet
+Entries:
+- Data:
+    Level: 1
+    Reference: 00130F:AVExpansion.esp
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 001311:AVExpansion.esp
+    Count: 1

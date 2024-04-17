@@ -1,0 +1,9 @@
+FormKey: 00080A:SilverHandArmored.esp
+EditorID: SilverHandArmorBossGauntlets
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 00080B:SilverHandArmored.esp
+    Count: 1

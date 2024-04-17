@@ -1,0 +1,7 @@
+FormKey: 00081F:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorShield
+Entries:
+- Data:
+    Level: 1
+    Reference: 000D62:SPOA_shield.esp
+    Count: 1

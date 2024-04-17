@@ -1,0 +1,7 @@
+FormKey: 000815:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMeleeBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 01395B:Skyrim.esm
+    Count: 1

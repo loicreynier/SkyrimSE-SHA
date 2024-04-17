@@ -1,0 +1,11 @@
+FormKey: 000819:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileCuirass
+Entries:
+- Data:
+    Level: 1
+    Reference: 000D63:Crimson Ranger Armor.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 001D99:Crimson Ranger Armor.esp
+    Count: 1

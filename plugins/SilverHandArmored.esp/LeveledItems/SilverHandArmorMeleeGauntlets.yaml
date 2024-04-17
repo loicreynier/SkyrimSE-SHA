@@ -1,0 +1,9 @@
+FormKey: 000812:SilverHandArmored.esp
+EditorID: SilverHandArmorMeleeGauntlets
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000813:SilverHandArmored.esp
+    Count: 1

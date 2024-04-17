@@ -1,0 +1,9 @@
+FormKey: 000822:SilverHandArmored.esp
+EditorID: SilverHandArmorRing
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000823:SilverHandArmored.esp
+    Count: 1

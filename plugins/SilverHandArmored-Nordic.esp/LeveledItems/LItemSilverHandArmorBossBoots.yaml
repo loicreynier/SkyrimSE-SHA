@@ -1,0 +1,7 @@
+FormKey: 00080D:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 01CD96:Dragonborn.esm
+    Count: 1

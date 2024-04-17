@@ -1,0 +1,21 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-NordwarUA.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 13
+    NextFormID: 2048
+  Author: Lorkhan
+  Description: Silver Hand Armored customization patch - NordWarUA Silver Hand Armor Standalone
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  - Master: Silver Hand Armor.esp
+    FileSize: 0

@@ -1,0 +1,9 @@
+FormKey: 000808:SilverHandArmored.esp
+EditorID: SilverHandArmorBossCuirass
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000809:SilverHandArmored.esp
+    Count: 1

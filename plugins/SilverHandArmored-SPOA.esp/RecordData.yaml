@@ -1,0 +1,21 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-SPOA.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 13
+    NextFormID: 2048
+  Author: Lorkhan
+  Description: Silver Hand Armored customization patch - SPOA Silver Knight Armor
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  - Master: SPOAsilverknight.esp
+    FileSize: 0

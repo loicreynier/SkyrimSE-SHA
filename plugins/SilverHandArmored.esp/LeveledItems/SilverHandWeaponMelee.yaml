@@ -1,0 +1,9 @@
+FormKey: 000824:SilverHandArmored.esp
+EditorID: SilverHandWeaponMelee
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000825:SilverHandArmored.esp
+    Count: 1

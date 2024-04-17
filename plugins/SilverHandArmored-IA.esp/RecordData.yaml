@@ -1,0 +1,20 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-IA.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 6
+    NextFormID: 22784
+  Author: Lorkhan
+  Description: Compatibility patch for Silver Hand Armored and Immersive Armors
+  MasterReferences:
+  - Master: Hothtrooper44_ArmorCompilation.esp
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  INTV: 1

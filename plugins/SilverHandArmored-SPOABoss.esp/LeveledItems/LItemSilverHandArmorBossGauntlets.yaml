@@ -1,0 +1,7 @@
+FormKey: 00080B:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossGauntlets
+Entries:
+- Data:
+    Level: 1
+    Reference: 000D69:SPOAsilverknight.esp
+    Count: 1

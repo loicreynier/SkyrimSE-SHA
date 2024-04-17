@@ -1,0 +1,7 @@
+FormKey: 000807:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossHelmet
+Entries:
+- Data:
+    Level: 1
+    Reference: 000803:SilverHandArmored-VE.esp
+    Count: 1

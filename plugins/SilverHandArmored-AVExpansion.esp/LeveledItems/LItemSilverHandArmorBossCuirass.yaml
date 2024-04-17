@@ -1,0 +1,11 @@
+FormKey: 000809:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorBossCuirass
+Entries:
+- Data:
+    Level: 1
+    Reference: 01395C:Skyrim.esm
+    Count: 1
+- Data:
+    Level: 20
+    Reference: 00130F:AVExpansion.esp
+    Count: 1

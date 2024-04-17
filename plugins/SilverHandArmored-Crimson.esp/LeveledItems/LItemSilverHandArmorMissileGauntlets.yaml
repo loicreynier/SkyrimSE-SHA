@@ -1,0 +1,7 @@
+FormKey: 00081B:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileGauntlets
+Entries:
+- Data:
+    Level: 1
+    Reference: 000D67:Crimson Ranger Armor.esp
+    Count: 1

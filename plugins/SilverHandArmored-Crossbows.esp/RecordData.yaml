@@ -1,0 +1,20 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored-Crossbows.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 4
+    NextFormID: 2050
+  Author: Lorkhan
+  Description: Silver Hand Armored customization plugin - Crossbows
+  MasterReferences:
+  - Master: Dawnguard.esm
+    FileSize: 0
+  - Master: SilverHandArmored.esp
+    FileSize: 0
+  INTV: 1

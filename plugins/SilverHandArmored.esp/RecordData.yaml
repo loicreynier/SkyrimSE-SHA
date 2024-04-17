@@ -1,0 +1,18 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Skyrim
+  Version: 0.18.0
+ModKey: SilverHandArmored.esp
+GameRelease: SkyrimSE
+ModHeader:
+  Flags:
+  - Light
+  Stats:
+    Version: 1.7
+    NumRecords: 61
+    NextFormID: 22826
+  Author: Lorkhan
+  Description: Silver Hand Armored gives Steel Plate Armor to all the hunters of the Silver Hand so as to turn this faction into a warrior faction rather than a gang of bandits
+  MasterReferences:
+  - Master: Skyrim.esm
+    FileSize: 0
+  INTV: 1

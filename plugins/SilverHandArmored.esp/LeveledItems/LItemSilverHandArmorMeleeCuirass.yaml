@@ -1,0 +1,7 @@
+FormKey: 000811:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMeleeCuirass
+Entries:
+- Data:
+    Level: 1
+    Reference: 01395C:Skyrim.esm
+    Count: 1

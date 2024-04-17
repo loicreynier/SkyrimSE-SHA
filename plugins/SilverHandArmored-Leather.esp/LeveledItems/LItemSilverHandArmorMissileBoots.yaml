@@ -1,0 +1,7 @@
+FormKey: 00081D:SilverHandArmored.esp
+EditorID: LItemSilverHandArmorMissileBoots
+Entries:
+- Data:
+    Level: 1
+    Reference: 013920:Skyrim.esm
+    Count: 1

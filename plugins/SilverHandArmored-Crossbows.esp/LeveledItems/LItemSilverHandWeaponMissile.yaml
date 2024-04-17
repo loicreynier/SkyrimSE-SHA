@@ -1,0 +1,13 @@
+FormKey: 000829:SilverHandArmored.esp
+EditorID: LItemSilverHandWeaponMissile
+Flags:
+- UseAll
+Entries:
+- Data:
+    Level: 1
+    Reference: 000800:SilverHandArmored-Crossbows.esp
+    Count: 1
+- Data:
+    Level: 1
+    Reference: 000801:SilverHandArmored-Crossbows.esp
+    Count: 1

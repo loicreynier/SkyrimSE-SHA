@@ -7,7 +7,7 @@
         <group name="Core Mod" type="SelectExactlyOne">
           <plugins order="Explicit">
             <plugin name="Silver Hand Armored">
-              <description>This is the main plugin for the mod.</description>
+              <description>This is the main plugin for the mod. Requires USSEP.</description>
               <image path="fomod\logo.png" />
               <files>
                 <file source="SilverHandArmored.esp" destination="SilverHandArmored.esp"
